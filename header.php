@@ -67,13 +67,15 @@
 			<nav id="main-menu" class="menu">
 			<?php 
 			if ( has_nav_menu( 'primary' ) ) {
+				
 				echo wp_nav_menu( array( 
 					'theme_location' => 'primary',
 					'container'      => false,
 					'container_class' => 'menu-header',
-					'menu_class' => 'primary-menu',
+					'menu_class' => false,
 					'echo' => false
 				)); 
+				
 			} else { 
 			?>
 				<p><?php _e('Primary menu is not selected and/or created. Please go to "Appearance &rarr; Menus" and setup menu.' ,'dsframework'); ?></p>

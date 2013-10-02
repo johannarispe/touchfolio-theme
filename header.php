@@ -42,11 +42,31 @@
 	<![endif]-->
 
 	<style type="text/css">
-
+		#fb-like-home {
+			position: fixed;
+			top: 72%;
+			overflow: visible
+		}
+		#twitter-home {
+			position: fixed;
+			top: 72%;
+			overflow: visible;
+			left: 120px;
+		}
 	</style>
 
 <?php wp_head(); ?>
 </head>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=164012860327465";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <body <?php body_class(); ?> style="">
 <div id="main-wrap">
 <div id="page" class="hfeed site">
@@ -100,5 +120,12 @@
 				</nav>
 			<?php }	?>
 		</div>
+
+<div id='fb-like-home' class="fb-like" data-href="http://josephart.me/" data-width="The pixel width of the plugin" data-height="The pixel height of the plugin" data-colorscheme="light" data-layout="button_count" data-action="like" data-show-faces="true" data-send="false"></div>
+<div id='twitter-home'>
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://josephart.me" data-text="Check out this site made of Visual arts, Photography and Films: ">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ </div>
+
 	</header>
 	<div id="main">

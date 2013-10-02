@@ -14,4 +14,5 @@
 				<?php if ( ! dynamic_sidebar( 'regular-page-sidebar' ) ) : ?>
 				<?php endif; ?>
 			<?php } ?>
+			sdfsd sdfsdfasd
 		</div>

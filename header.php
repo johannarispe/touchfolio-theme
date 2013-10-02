@@ -23,7 +23,8 @@
 	<?php if (is_single()) { ?>
 	<meta property="og:url" content="<?php the_permalink() ?>"/>
 	<meta property="og:title" content="<?php single_post_title(''); ?>" />
-	<meta property="og:description" content="<?php echo strip_tags(get_the_excerpt()); ?>" />
+	<meta property="og:description" content="José works with video and photography, trying to catch these feelings and using the image as a mirror or as a witness of the experimentation of this labour. He looks for a relationship between the body and the image recorded.
+	<?php //echo strip_tags(get_the_excerpt()); ?>" />
 	<meta property="og:type" content="article" />
 	<meta property="og:image" content="<?php if (function_exists('ds_get_og_image')) { echo ds_get_og_image(); }?>" />
 	<?php } else { ?>
@@ -42,7 +43,7 @@
 	<![endif]-->
 
 	<style type="text/css">
-	
+
 	</style>
 
 <?php wp_head(); ?>

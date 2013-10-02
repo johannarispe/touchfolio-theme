@@ -42,7 +42,7 @@
 	<![endif]-->
 
 	<style type="text/css">
-		
+	
 	</style>
 
 <?php wp_head(); ?>

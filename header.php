@@ -28,6 +28,7 @@
 	<?php } else { ?>
 	<meta property="og:site_name" content="<?php bloginfo('name'); ?>" />
 	<meta property="og:description" content="José works with video and photography, trying to catch these feelings and using the image as a mirror or as a witness of the experimentation of this labour. He looks for a relationship between the body and the image recorded." />
+	<meta property="description" content="José works with video and photography, trying to catch these feelings and using the image as a mirror or as a witness of the experimentation of this labour. He looks for a relationship between the body and the image recorded." />
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="<?php echo get_ds_option('main_logo'); ?>" /> <?php } ?>
 	<?php 

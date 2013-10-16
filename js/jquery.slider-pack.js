@@ -165,10 +165,10 @@
 
 			}
 			
-			out += '<div class="slider-album-indicator">';
+			out += '<div class="z">';
 
 				out += '<div class="album-info-text">'+
-							'<a href="javascript:void(0);" title="Info" class="album-name-indicator underlined"></a> (more info)'+
+							'<a href="javascript:void(0);" title="Info" class="album-name-indicator underlined"></a>'+
 							'<span class="item-count-indicator"></span>'+
 						'</div>';
 
@@ -184,7 +184,7 @@
 			self._lastItemLink = true;
 		}
 		// append controls e.t.c. to slider
-		self.sliderRoot.append(out);
+		self.sliderRozot.append(out);
 
 		self._slidesWrapper = self.sliderRoot.find('.slider-wrapper');
 

@@ -168,7 +168,7 @@
 			out += '<div class="slider-album-indicator">';
 
 				out += '<div class="album-info-text">'+
-							'<a href="javascript:void(0);" title="Info" class="album-name-indicator underlined"></a>'+
+							'<a href="javascript:void(0);" title="Info" class="album-name-indicator underlined"></a> (more info)'+
 							'<span class="item-count-indicator"></span>'+
 						'</div>';
 
